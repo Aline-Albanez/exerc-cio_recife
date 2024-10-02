@@ -10,11 +10,17 @@ body{
 }
 
 header{
-    background-color: rgb(151, 205, 223);
+    background-color: darkblue;
+    padding-right: 10px;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+header img{
+    width: 100px;
+    padding-left: 10px;
 }
 
 header ul{
@@ -27,7 +33,7 @@ header ul{
 
 header li{
     margin-left: 24px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,19 +44,30 @@ header a{
 }
 
 header a:hover{
-    color: rgb(3, 3, 50);
-}
-
-header h1{
-    color: rgb(3, 3, 50);
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(117, 117, 234);
 }
 
 main{
     background-color: #cde9f2;
 }
+
+.carrocel{
+    background-image: url(./img/praca-do-marco-zero-banksystem.jpg);
+    background-size: cover;
+    background-position: center 30%;
+    height: 320px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 16px;
+}
+
+.carrocel h1{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+
 main h1{
     color: cornflowerblue;
     text-align: center;
